@@ -1,0 +1,1 @@
+http-server -p 8000 -d /var/www/html

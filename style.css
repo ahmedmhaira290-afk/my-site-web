@@ -1,0 +1,207 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-image: url('WhatsApp Image 2025-08-04 at 09.43.29_dd40446a.jpg');
+    background-repeat: repeat-y;
+    background-size: 100% auto;
+    background-position: top;
+    background-attachment: scroll;
+    height: 300vh;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  
+  h1 {
+    color: rgb(107, 129, 96);
+    font-size: 2rem;
+    margin-bottom: 30px;
+    background-color: antiquewhite;
+  }
+ /* p {
+    color: rgb(107, 129, 96);
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    background-color: antiquewhite;
+    position: absolute;
+  } */
+  
+  .buttons button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  section {
+    padding: 100px 20px;
+    background-color: rgba(255, 255, 255, 0.85);
+    margin: 50px 0;
+  }
+
+#clothing {
+    background: linear-gradient(to bottom, #f9f9f9, #ffffff);
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  #clothing h2 {
+    font-size: 2.2rem;
+    color: #2c3e50;
+    margin-bottom: 10px;
+  }
+  
+  #clothing p {
+    color: #555;
+    margin-bottom: 40px;
+  }
+  
+  .grid-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    justify-items: center;
+  }
+  
+  .grid-gallery img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
+  
+  .grid-gallery img:hover {
+    transform: scale(1.05);
+  }
+  
+  .grid-gallery img:nth-child(4) {
+    grid-column-start: 2;
+  }
+  
+  .grid-gallery img:nth-child(5) {
+    grid-column-start: 3;
+  }
+  .product-card {
+    text-decoration: none;
+    color: #333;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .product-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .product-card img {
+    width: 250px;
+    height: 250px;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+  }
+  
+  .product-card p {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 1rem;
+    html {
+        scroll-behavior: smooth;
+      }
+  }
+  .grid-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: center;
+    padding: 20px;
+  }
+  
+  .product-card {
+    text-decoration: none;
+    color: #333;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .product-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .product-card img {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+  }
+  
+  .product-card p {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  
+  .grid-gallery a:nth-child(4) {
+    grid-column-start: 2;
+  }
+  
+  .grid-gallery a:nth-child(5) {
+    grid-column-start: 3;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+.hero-header {
+    background: url('nature-background.jpg') center/cover no-repeat;
+    padding: 80px 20px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    position: relative;
+  }
+  
+  .hero-header::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+  }
+  
+  .hero-header h1 {
+    position: relative;
+    z-index: 2;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  .nav-buttons {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .nav-buttons button {
+    background-color: #ffffff;
+    border: none;
+    padding: 12px 25px;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .nav-buttons button:hover {
+    background-color: #f0f0f0;
+    transform: scale(1.05);
+  }
